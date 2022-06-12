@@ -1,21 +1,54 @@
 <!doctype html>
 <html>
+    
 <head>
 <title>Deliverable One</title>
 <meta name="description" content="Our first page">
 <meta name="keywords" content="html tutorial template">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+
+ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        a:link, a:visited {
+  background-color: none;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #ff5c0f;
+}
+        </style>
 </head>
 <body>
     <header>
-        <h1>Learn to Code</h1>
-        <h5>Bootcamps</h5>
-        <h5>Workshops</h5>
-        <h5>Custom Training</h5>
-        <h5>Student Stories</h5>
-        <button>Contact Us </button>
+        <h1><span style="color:#20a8b4">Learn to </span>
+    <span style="color:#ff5c0f">Code</span>
+        </h1>
+        
+            <ul>
+                <li><a href="bootcamps">Bootcamps</a></li>
+                <li><a href="#news">Workshops</a></li>
+                <li><a href="#contact">Custom Training</a></li>
+                <li><a href="#about">Student Stories</a></li>
+              </ul>
+       
     </header>
-    <section>
-        <h3>Do you think about learning to Code?</h3>
+    <section> 
+       <div class="btns">
+        <button class=" btn btn --subtle">Contact Us</button>
+       </div>
+       <div class="btns">
+        
+
+        <h3><span style="color: black"> Do you think about</span> <span style= color:#ff5c0f>learning to code?</h3>
             <h5>Learn to code and develop a new career!</h5>
             <button>Learn More</button>
 
@@ -25,3 +58,4 @@
 
 </body>
 </html>
+

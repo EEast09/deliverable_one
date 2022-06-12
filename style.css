@@ -1,7 +1,19 @@
 body {
-font-family: Georgia, 'Times New Roman', Times, serif; 
+font-family: 'Times New Roman', Times, serif
 text-align: left;
 }
 h1{
   background-color:#F2F2F2;  
 }
+
+
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+
+}
+
+
