@@ -6,14 +6,36 @@ h1{
   background-color:#F2F2F2;  
 }
 
-
-
-.btns{
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  
-
+ul{
+  background-color: #F2F2F2;
 }
 
+.btns{
+  
+  display: flex;
+  flex-direction: column;
+}
 
+button{
+  
+  padding: 12px;
+ border-radius: 10px;
+  background-color: #20a8b4;
+  color: white
+  
+  
+  
+}
+button{
+  
+  border: #20a8b4;
+  text-align: left;
+}
+
+button:hover {
+  background-color: #20a8b4 ;
+  background-color: #ff5c0f;
+}
+h3{
+  padding-top: 80px;
+}
