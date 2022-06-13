@@ -59,10 +59,11 @@ h3{
       width: auto;
     }
    
-    @media (max-width: 576px){
-      .mobileHide{
-        display:none;
-      }
+    
+   .mobileHide{
+    display: none;
+   }
+
     }
 
 
