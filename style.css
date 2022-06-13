@@ -59,10 +59,9 @@ h3{
       width: auto;
     }
    
+    .mobileHide{ display: none;}
+   
     
-   .mobileHide{
-    display: none;
-   }
 
     }
 
